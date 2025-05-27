@@ -1,0 +1,33 @@
+
+<html>
+<head>
+  <title>Order Form</title>
+</head>
+<body>
+
+  <h2>Item Order Form</h2>
+
+  <form>
+    <label for="fullname">Full Name:</label><br>
+    <input type="text" id="fullname" name="fullname" placeholder="სახელი,გვარი" required><br><br>
+
+    <label for="phone">Phone Number:</label><br>
+    <input type="tel" id="phone" name="phone" placeholder="ტელეფონის ნომერი"  required><br><br>
+
+    <label for="address">Address:</label><br>
+    <input type="text" id="address" name="address" placeholder="მისამართი" required><br><br>
+
+    <label for="product">Selected Product:</label><br>
+    <select id="product" name="product" required>
+      <option value="">Select a Product</option>
+      <option value="laptop">Laptop</option>
+      <option value="phone">Phone</option>
+      <option value="headphones">Headphones</option>
+      <option value="monitor">Monitor</option>
+    </select><br><br>
+
+    <input type="submit" value="Submit">
+  </form>
+
+</body>
+</html>
