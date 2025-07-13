@@ -1,0 +1,159 @@
+<!-- 1 -->
+<!-- 
+Property არის CSS მახასიათებელი, რომელიც განსაზღვრავს თუ რა ტიპის სტილს ვიყენებთ (მაგ: color, font-size, background-color).
+Value არის მნიშვნელობა, რომელიც ამ Property-ს ენიჭება (მაგ: red, 16px, blue).
+მაგალითად:
+color: red;
+აქ color არის Property და red არის Value.
+-->
+
+
+<!-- 2 -->
+
+<!-- 
+დღეს ნასწავლი CSS კუთვნილებები:
+1. color – ტექსტის ფერის შესაცვლელად
+2. background-color – ფონის ფერის დასაყენებლად
+3. font-size – შრიფტის ზომის შესაცვლელად
+4. text-align – ტექსტის გასწორებისთვის
+5. padding – შიდა ცარიელის დასამატებლად
+6. margin – გარე ცარიელის დასამატებლად
+7. border – ელემენტის საზღვრის დასამატებლად
+8. width – სიგანის დასაყენებლად
+9. height – სიმაღლის დასაყენებლად
+10. font-family – შრიფტის სტილის შესაცვლელად
+-->
+
+
+<!-- 3 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Hobbies</title>
+  <style>
+    /* ზოგადი სტილი */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f0f8ff;
+      color: #333;
+    }
+
+    header {
+      background-color: #004080;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #0066cc;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    section {
+      margin-bottom: 40px;
+      padding: 20px;
+      background-color: #e6f2ff;
+      border: 2px solid #b3d9ff;
+      border-radius: 10px;
+    }
+
+    h2 {
+      color: #004080;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    button {
+      background-color: #004080;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    footer {
+      background-color: #004080;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>My Hobbies</h1>
+    <p>Things I enjoy doing in my free time</p>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="#reading">Reading</a>
+    <a href="#drawing">Drawing</a>
+    <a href="#gaming">Gaming</a>
+  </nav>
+
+  <!-- Main Content -->
+  <main>
+
+    <!-- Section 1 -->
+    <section id="reading">
+      <h2>📚 Reading</h2>
+      <p>I love reading fiction, especially fantasy and science fiction novels. Reading helps me relax and learn new things.</p>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8RshnFg4PnM0cKrwu0KYKvYpyO-dM2jsDDg&salt" alt="Books" width ="200"/>
+      <br><br>
+      <button>Learn More</button>
+    </section>
+
+    <!-- Section 2 -->
+    <section id="drawing">
+      <h2>🎨 Drawing</h2>
+      <p>Drawing is my creative outlet. I enjoy sketching animals, cartoons, and characters from my imagination.</p>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFXJDqQxqnI0vgdIL-C9foxvtRdvb5lNnxwg&s" alt="Drawing" width="200"/>
+      <br><br>
+      <button>See Gallery</button>
+    </section>
+
+    <!-- Section 3 -->
+    <section id="gaming">
+      <h2>🎮 Gaming</h2>
+      <p>Video games are a fun way for me to unwind and explore new worlds. My favorite games are adventure and puzzle games.</p>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9UUC4UsTNMo0lgyYHzU1waxX6xaoLa-5jdg&s" alt="Gaming" width="200"/>
+      <br><br>
+      <button>My Favorite Games</button>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 My Hobby Site | Made with ANAMARIIAAAA<3    </p>
+  </footer>
+
+</body>
+</html>
+

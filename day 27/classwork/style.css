@@ -1,0 +1,53 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif; /* Sets font */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+}
+
+.image {
+    width: 300px;
+    height: auto;
+    border: 2px solid blue; /* Blue border with 2px width */
+    margin-bottom: 20px;
+}
+
+/* Paragraph borders */
+.paragraph {
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.red-border {
+    border: 1px double red; /* Double red 1px border */
+}
+
+.green-border {
+    border: 3px dotted green; /* 3px dotted green border */
+}
+
+/* Button style */
+.button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: transparent;
+    border: 1px dashed violet; /* Violet dashed border */
+    color: violet;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.button:hover {
+    background-color: violet;
+    color: white;
+}

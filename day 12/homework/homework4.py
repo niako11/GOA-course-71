@@ -1,7 +1,9 @@
-my_height = 175  # შენი სიმაღლე სანტიმეტრებში
-user_height = int(input("შეიყვანე შენი სიმაღლე სანტიმეტრებში: "))
+my_height = 175 
+user_height = int(input("Please enter your height in centimeters: "))
 
 if user_height > my_height:
-    print("შენ ჩემზე მაღალი ხარ!")
+    print("You are taller than me.")
+elif user_height == my_height:
+    print("Our heights are the same.")
 else:
-    print("შენ ჩემზე დაბალი ან იმავე სიმაღლის ხარ.")
+    print("I am taller than you.")

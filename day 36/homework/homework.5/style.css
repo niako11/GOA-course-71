@@ -1,0 +1,30 @@
+body {
+    font-family: Georgia, serif;
+    background-color: #f7f7f7;
+    color: #333;
+    text-align: center;
+}
+
+nav {
+    background-color: #222;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    color: #b30059;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}

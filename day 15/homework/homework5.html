@@ -1,0 +1,33 @@
+<form action="#" method="post">
+    <label for="fname">First Name:</label><br />
+    <input type="text" id="fname" name="fname" placeholder="Enter your first name" required /><br /><br />
+
+    <label for="lname">Last Name:</label><br />
+    <input type="text" id="lname" name="lname" placeholder="Enter your last name" required /><br /><br />
+
+    <label for="phone">Mobile Number:</label><br />
+    <input type="tel" id="phone" name="phone" placeholder="+1 555 555 5555" pattern="\+1\s\d{3}\s\d{3}\s\d{4}" required /><br /><br />
+
+    <label for="address">Pickup Address:</label><br />
+    <input type="text" id="address" name="address" placeholder="Enter your pickup address" required /><br /><br />
+
+    <label for="time">Pickup Time:</label><br />
+    <input type="time" id="time" name="time" required /><br /><br />
+
+    <p>Taxi Type:</p>
+    <input type="radio" id="standard" name="taxiType" value="standard" checked />
+    <label for="standard">Standard</label><br />
+    <input type="radio" id="lux" name="taxiType" value="lux" />
+    <label for="lux">Luxury</label><br /><br />
+
+    <p>Additional Services:</p>
+    <input type="checkbox" id="childSeat" name="extras" value="childSeat" />
+    <label for="childSeat">Child Seat</label><br />
+    <input type="checkbox" id="wifi" name="extras" value="wifi" />
+    <label for="wifi">Wi-Fi</label><br /><br />
+
+    <label for="review">Review / Comments:</label><br />
+    <textarea id="review" name="review" rows="4" cols="40" placeholder="Write your comments here"></textarea><br /><br />
+
+    <button type="submit">Confirm Booking</button>
+</form>
