@@ -1,0 +1,42 @@
+
+.green-button {
+  background-color: green;
+  font-family: Arial, sans-serif;
+  border: 2px solid orange;
+  color: white;
+  padding: 10px 20px;
+  margin: 5px;
+}
+
+.red-button {
+  background-color: darkred;
+  font-family: Verdana, sans-serif;
+  border: 1px double blue;
+  color: white;
+  padding: 10px 20px;
+  margin: 5px;
+}
+
+#img1 {
+  width: 100px;
+  height: 100px;
+  border: 2px solid darkred;
+}
+
+#img2 {
+  width: 150px;
+  height: 150px;
+  border: 3px dashed blue;
+}
+
+#img3 {
+  width: 200px;
+  height: 200px;
+  border: 4px dotted purple;
+}
+
+#img4 {
+  width: 250px;
+  height: 250px;
+  border: 2px double green;
+}

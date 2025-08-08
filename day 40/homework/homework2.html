@@ -1,0 +1,22 @@
+<!---
+1. Element Selector → p { background-color: black; }
+
+2. Class Selector → .text { text-align: left; }
+
+3. ID Selector → #main { text-align: center; border: 1px solid blue; }
+
+4. Inline CSS → <p style="color: red; text-align: center;">
+
+
+
+➡ სტილის პრიორიტეტი:
+
+Inline styles > ID selectors > Class selectors > Element selectors
+
+
+სტილის მახასიათებელი	საბოლოო მნიშვნელობა	ახსნა
+color	red	Inline CSS აქვს უმაღლესი პრიორიტეტი
+text-align	center	Inline CSS-ის text-align: center ჯდება ID Selector-ის მსგავსად, მაგრამ INLINE იმარჯვებს
+border	1px solid blue	Only set by ID Selector
+background-color	black	მითითებულია მხოლოდ Element Selector-ით
+-->

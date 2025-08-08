@@ -1,0 +1,58 @@
+#main-heading, #sub-heading {
+  border: 2px dotted blue;
+  color: purple;
+  text-align: center;
+}
+
+.image-container {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.red-border {
+  border: 4px double red;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
+
+.purple-border {
+  border: 3px solid violet;
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+}
+
+.blue-text, .orange-text {
+  text-align: center;
+  font-size: 18px;
+  margin: 10px auto;
+  width: 80%;
+}
+
+.blue-text {
+  color: skyblue;
+}
+
+.orange-text {
+  color: orange;
+}
+
+
+#button1 {
+  background-color: teal;
+  color: white;
+  padding: 10px 20px;
+  border: 2px solid navy;
+  font-size: 16px;
+  margin: 20px;
+}
+
+#button2 {
+  background-color: darkorange;
+  color: white;
+  padding: 12px 25px;
+  border: 3px dashed brown;
+  font-size: 16px;
+  margin: 20px;
+}

@@ -1,0 +1,17 @@
+/*
+text-align: ტექსტის ჰორიზონტალური გამოყვანა (left, right, center, justify)
+text-decoration: ტექსტზე ხაზების დამატება (underline, overline, line-through და მათი სტილი)
+font-size: ფონტის ზომა (px, em, %, rem)
+font-family: შრიფტის სახელი (Arial, 'Times New Roman', Google Font)
+font-weight: ფონტის სიმძიმე (normal, bold, 100-900)
+font-style: ფონტის სტილი (normal, italic, oblique)
+color: ტექსტის ფერი
+line-height: სტრიქონების სიმაღლე, შიდა სივრცე ტექსტებს შორის
+letter-spacing: სიმბოლოებს შორის დაშორება
+word-spacing: სიტყვებს შორის დაშორება
+text-transform: ტექსტის გარდაქმნა (uppercase, lowercase, capitalize)
+text-indent: პირველი სტრიქონის შესატყვისი დაშორება
+white-space: ცარიელი სივრცეების მართვა (normal, nowrap, pre)
+word-break: სიტყვების გაყოფა სტრიქონზე (break-word, normal)
+direction: ტექსტის მიმართულება (ltr, rtl)
+*/

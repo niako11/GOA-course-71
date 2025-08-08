@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+<meta charset="UTF-8">
+<title>Text Decoration Examples</title>
+<style>
+  /* 2) სამი პარაგრაფი განსხვავებული ხაზებით */
+  #para1 {
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: red;
+  }
+  #para2 {
+    text-decoration-line: overline;
+    text-decoration-style: wavy;
+    text-decoration-color: blue;
+  }
+  #para3 {
+    text-decoration-line: underline;
+    text-decoration-style: dashed; /* default ფერი */
+  }
+
+  /* 3) 5 პარაგრაფი განსხვავებული ხაზებით */
+  #p1 {
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+  }
+  #p2 {
+    text-decoration-line: overline;
+    text-decoration-style: dashed;
+  }
+  #p3 {
+    text-decoration-line: line-through;
+    text-decoration-style: wavy;
+  }
+  #p4 {
+    text-decoration-line: underline;
+    text-decoration-style: double;
+  }
+  #p5 {
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+  }
+
+  /* 4) სხვადასხვა ტექსტურ ელემენტზე text-decoration */
+  h1 {
+    text-decoration-line: underline;
+  }
+  h2 {
+    text-decoration-line: overline;
+  }
+  h3 {
+    text-decoration-line: line-through;
+    text-decoration-style: dashed;
+    color: blueviolet;
+  }
+  em {
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: red;
+  }
+  strong {
+    text-decoration-line: underline;
+    text-decoration-style: double;
+  }
+
+  /* 5) container div + ინდივიდუალური text-decoration id-ებით */
+  .container p#dotted {
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: green;
+  }
+  .container em#wavy {
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: orange;
+  }
+  .container strong#double {
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    text-decoration-color: purple;
+  }
+  .container h1#solid {
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+  }
+  .container h2#overline {
+    text-decoration-line: overline;
+    text-decoration-style: solid;
+  }
+  .container h3#lineThrough {
+    text-decoration-line: line-through;
+    text-decoration-style: dashed;
+    color: crimson;
+  }
+</style>
+</head>
+<body>
+
+  <!-- 2) სამი პარაგრაფი -->
+  <p id="para1">პირველი პარაგრაფი - წითელი წერტილოვანი ხაზით ქვემოდან</p>
+  <p id="para2">მეორე პარაგრაფი - ლურჯი ტალღოვანი ხაზით ზემოდან</p>
+  <p id="para3">მესამე პარაგრაფი - default ფერის წყვეტილი ხაზით</p>
+
+  <hr>
+
+  <!-- 3) 5 პარაგრაფი სხვადასხვა ხაზებით -->
+  <p id="p1">underline + dotted</p>
+  <p id="p2">overline + dashed</p>
+  <p id="p3">line-through + wavy</p>
+  <p id="p4">underline + double</p>
+  <p id="p5">underline + solid</p>
+
+  <hr>
+
+  <!-- 4) სხვადასხვა ტექსტურ ელემენტზე text-decoration -->
+  <h1>h1 with underline</h1>
+  <h2>h2 with overline</h2>
+  <h3>h3 with blueviolet dashed line-through</h3>
+  <p>Some <em>emphasized</em> text</p>
+  <p>Some <strong>strong</strong> text</p>
+
+  <hr>
+
+  <!-- 5) container div + ინდივიდუალური text-decoration -->
+  <div class="container">
+    <p id="dotted">Dotted underline paragraph</p>
+    <em id="wavy">Wavy underline emphasized text</em>
+    <strong id="double">Double underline strong text</strong>
+    <h1 id="solid">Solid underline h1</h1>
+    <h2 id="overline">Overline h2</h2>
+    <h3 id="lineThrough">Dashed line-through h3</h3>
+  </div>
+
+</body>
+</html>

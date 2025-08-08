@@ -1,0 +1,101 @@
+/*
+--- ტექსტის სტილიზაციისთვის ძირითადი კუთვნილებები ---
+
+1. color:
+   - ტექსტის ფერის განსაზღვრა.
+   - მაგ: color: red;
+
+2. font-family:
+   - ტექსტის შრიფტის ტიპის მითითება.
+   - მაგ: font-family: Arial, sans-serif;
+
+3. font-size:
+   - ტექსტის ზომა.
+   - შეიძლება იყოს px, em, rem, %, vw და სხვა.
+   - მაგ: font-size: 16px;
+
+4. font-weight:
+   - ტექსტის სიმძიმე (ბრტყელი, გამოკვეთილი და ა.შ.).
+   - ძირითადი მნიშვნელობები: normal, bold, 100-900.
+   - მაგ: font-weight: bold;
+
+5. font-style:
+   - ფონტის სტილი.
+   - მნიშვნელობები: normal, italic, oblique.
+   - მაგ: font-style: italic;
+
+6. line-height:
+   - სტრიქონებს შორის დაშორება.
+   - მაგ: line-height: 1.5;
+
+7. text-align:
+   - ტექსტის ჰორიზონტალური გასწორება.
+   - მნიშვნელობები: left, right, center, justify.
+   - მაგ: text-align: center;
+
+8. letter-spacing:
+   - ასოებს შორის მანძილი.
+   - მაგ: letter-spacing: 2px;
+
+9. word-spacing:
+   - სიტყვებს შორის მანძილი.
+   - მაგ: word-spacing: 5px;
+
+10. text-transform:
+    - ტექსტის გარდაქმნა: დიდი ასოები, პატარა ასოები, პირველი ასოს დიდი და ა.შ.
+    - მნიშვნელობები: uppercase, lowercase, capitalize, none.
+    - მაგ: text-transform: uppercase;
+
+11. text-indent:
+    - პირველი სტრიქონის შიგნიდან დაშორება.
+    - მაგ: text-indent: 30px;
+
+12. white-space:
+    - თეთრი სივრცეების მართვა.
+    - მნიშვნელობები: normal, nowrap, pre, pre-wrap, pre-line.
+    - მაგ: white-space: nowrap;
+
+13. word-break:
+    - სიტყვების გაყოფა სტრიქონზე.
+    - მნიშვნელობები: normal, break-all, keep-all.
+    - მაგ: word-break: break-all;
+
+14. direction:
+    - ტექსტის მიმართულება.
+    - მნიშვნელობები: ltr (მარცხნიდან მარჯვნივ), rtl (მარჯვნიდან მარცხნივ).
+    - მაგ: direction: rtl;
+
+---
+
+--- text-decoration-ის კუთვნილებები და მათი მნიშვნელობები ---
+
+1. text-decoration-line:
+   - ტექსტზე ხაზის ტიპის განსაზღვრა.
+   - მნიშვნელობები:
+     underline       - ტექსტის ქვეშ ხაზი
+     overline        - ტექსტის ზემოდან ხაზი
+     line-through    - გადაკვეთილი ტექსტი
+     none            - ხაზი არ არის
+
+2. text-decoration-style:
+   - ხაზის სტილი.
+   - მნიშვნელობები:
+     solid           - განიერი მყარი ხაზი (default)
+     double          - ორმაგი ხაზი
+     dotted          - წერტილოვანი ხაზი
+     dashed          - ნახვრეტებიანი ხაზი
+     wavy            - ტალღოვანი ხაზი
+
+3. text-decoration-color:
+   - ხაზის ფერი.
+   - შეიძლება იყოს ნებისმიერი ფერი, მაგ: red, #ff0000, rgb(255,0,0)
+
+4. text-decoration-thickness (ახალი):
+   - ხაზის სისქე.
+   - მნიშვნელობები: number(px, em) ან auto
+
+5. text-decoration-skip-ink:
+   - მართავს ხაზი გადაუყვება თუ არა ხაზს აკრეფილი ტექსტის ნაწილებს.
+   - მნიშვნელობები: auto, none, all
+
+*/
